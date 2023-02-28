@@ -208,7 +208,10 @@ body{
         position: relative;
 
         color: white;
-        font-size: 21px;
+        font-size: 28px;
+    }
+    .nav-link .help-para{
+        font-size: 14px;
     }
     i.fa-ellipsis-v{
         position: relative;
