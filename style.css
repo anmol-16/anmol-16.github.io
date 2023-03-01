@@ -1,18 +1,8 @@
 
 *{
-    /* padding: 0;
-    margin: 0; */
     color: black;
     font-size: 16px;
     font-family: 'Mulish', sans-serif;
-}
-html {
-    position: relative;
-    min-height: 100%;
-  }
-  
-body{
-    /* height:100%; */
 }
 .container-fluid{
     background-color: #8723ff;
@@ -53,17 +43,11 @@ body{
     content: "\C23";
     color: white;
 }
-.nav-link .notification-para{
-    color: white;
-}
 .nav-link .user-name-para{
     color: white;
 }
 .nav-link.dropdown-toggle::after{
     color: white;
-}
-.user-heading-container{
-   
 }
 .user-heading-container .main-heading{
     font-weight: 400;
@@ -81,13 +65,8 @@ body{
     font-weight: 500;
     font-size: 12px;
 }
-.understanding-link-container{
-    /* border-top: 1px solid #b4b4b4; */
-}
-
 .understanding-link-container i{
     color: rgb(105,105,105);
-    font-size: 16px;
 }
 .understanding-help{
     border-top: 1px solid rgb(180,180,180);
@@ -114,10 +93,8 @@ body{
 }
 .independent-space-container .independent-learning-description{
     font-weight: 600;
-   
 }
 .edulog .edulog-um{
-    font-size: 16px;
     font-weight: 700;
 }
 .edulog i{
@@ -167,6 +144,10 @@ body{
 .products-link{
     flex-basis: 90%;
 }
+i.fa-ellipsis-v {
+    position: relative;
+    top: 6px;
+}
 .language{
     margin-top: 20px;
     font-size: 14px;
@@ -205,9 +186,6 @@ body{
 }
 @media screen and (min-width:768px) {
     .nav-link .help-icon-task{
-        position: relative;
-
-        color: white;
         font-size: 28px;
     }
     .nav-link .help-para{
@@ -243,7 +221,7 @@ body{
     
 }
 @media screen and (min-width:992px){
-    .test-products:nth-child(2n-1):after{
+    .test-products:nth-child(n):after{
         content: "";
         position: absolute;
         left: 0;
