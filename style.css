@@ -1,5 +1,7 @@
 
 *{
+    /* padding: 0;
+    margin: 0; */
     color: black;
     font-size: 16px;
     font-family: 'Mulish', sans-serif;
@@ -50,12 +52,19 @@
     color: white;
 }
 .user-heading-container .main-heading{
-    font-weight: 400;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    color: rgb(50,50,50);
+}
+.user-heading-container{
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgb(180, 180, 180);
 }
 .option{
     color: #8723ff;
     font-weight: 600;
-    border-radius: 15px;
+    border-radius: 20px;
     border: 2px solid #8723ff;
     font-size: 12px;
     letter-spacing: 0.5px;
@@ -68,9 +77,7 @@
 .understanding-link-container i{
     color: rgb(105,105,105);
 }
-.understanding-help{
-    border-top: 1px solid rgb(180,180,180);
-}
+
 .understanding-help .understanding-text{
     color: rgb(105,105,105);
     font-size: 14px;
@@ -82,6 +89,7 @@
     box-shadow: 0px 2px 24px -6px rgb(0 0 0 / 50%);
     border-radius: 16px;
     margin-bottom: 32px;
+    padding-top: 32px;
 }
 .independent-space-container{
     border-bottom: 1px solid rgb(180, 180, 180);
@@ -90,9 +98,12 @@
     font-weight: 400;
     font-size: 32px;
     color: rgb(50,50,50);
+    line-height: 40px;
 }
 .independent-space-container .independent-learning-description{
     font-weight: 600;
+    line-height: 18px;
+    font-size: 14px;
 }
 .edulog .edulog-um{
     font-weight: 700;
@@ -121,18 +132,29 @@
     color: rgb(105,105,105);
 }
 .test-products{
-    border-top: 1px solid #DADADA;
     font-size: 14px;
+    border-top: 1px solid rgb(180, 180, 180);
+    padding: 0px;
+    padding-top: 16px;
 }
-.product-image i{
-    font-size: 24px;
+.test-products:last-child{
+    border-bottom: none;
+}
+.test-products .products-link{
+    
+}
+i.product-image::before{
+    font-size: 26px;
+ 
 }
 .product-desc .product-content-1{
     font-weight: 600;
+    font-size: 14px;
+    color: rgb(50,50,50);
 }
 .product-desc .product-content-2{
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     color: rgb(105,105,105);
 }
 .footer-link{
@@ -174,22 +196,26 @@ i.fa-ellipsis-v {
     color: white;
     background-color: #8723ff;
     border-radius: 15px;
-    padding: 6px 12px 6px 4px;
+    padding: 9px 16px 9px 12px;
     font-size: 12px;
     font-weight: 600;
 }
 .help-button i{
     color: white;
     align-self: center;
-    margin-left: 6px;
-    margin-right: 6px;
+    margin-right: 8px;
 }
 @media screen and (min-width:768px) {
+    .nav-link .notification-icon{
+        top: 2px;
+    }
     .nav-link .help-icon-task{
         font-size: 28px;
     }
     .nav-link .help-para{
         font-size: 14px;
+        position: relative;
+        top: -1px;
     }
     i.fa-ellipsis-v{
         position: relative;
