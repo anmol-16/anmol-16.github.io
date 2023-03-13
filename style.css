@@ -28,6 +28,8 @@
 .nav-link .help-icon-task{
     color: white;
     font-size: 28px;
+    position: relative;
+    top: -1px;
 }
 .nav-link .help-para{
     color: white;
@@ -38,7 +40,7 @@
     color: white;
     font-size: 24px;
     position: relative;
-    top: 3px;
+    top: 1px;
 }
 .nav-link .user-profile-icon{
     font-family: "FontAwesome";
@@ -47,6 +49,7 @@
 }
 .nav-link .user-name-para{
     color: white;
+    font-size: 12px;
 }
 .nav-link.dropdown-toggle::after{
     color: white;
@@ -171,7 +174,7 @@ i.fa-ellipsis-v {
     top: 6px;
 }
 .language{
-    margin-top: 20px;
+    margin-top: 20px !important;
     font-size: 14px;
 }
 .language i{
@@ -187,10 +190,12 @@ i.fa-ellipsis-v {
 .footer-link{
     font-size: 12px;
     font-weight: 500;
+    margin-bottom:  8px;
 }
 .footer-link-assessment{
     font-size: 12px;
     color: #696969;
+    margin-top: 15px;
 }
 .help-button{
     color: white;
@@ -227,6 +232,7 @@ i.fa-ellipsis-v {
     .test-products{
         border-top: none;
         border-bottom: 1px solid #DADADA;
+        padding-left: 16px;
     }
     .footer-link{
         border-right: 1px solid #696969;
