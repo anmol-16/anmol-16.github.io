@@ -263,9 +263,39 @@ i.fa-ellipsis-v {
         background: #DADADA;
         transform: translate(0, -50%);
     }
+    .test-products:nth-child(3n+1):after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 1px;
+        height: 55%;
+        background: white;
+        transform: translate(0, -50%);
+    }
 }
-@media screen and (min-width:1280px){
+@media screen and (min-width:1200px){
     .language{
-        margin-top: 0px;
+        margin-top: 0px !important;
+    }
+    .test-products:nth-child(n):after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 1px;
+        height: 55%;
+        background: #DADADA;
+        transform: translate(0, -50%);
+    }
+    .test-products:nth-child(4n+1):after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 1px;
+        height: 55%;
+        background: white;
+        transform: translate(0, -50%);
     }
 }
